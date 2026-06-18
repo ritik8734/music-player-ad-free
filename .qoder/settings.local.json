@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(flutter pub:*)",
+      "Bash(flutter analyze lib/services/music_provider.dart 2>&1 | head -30)",
+      "Bash(flutter analyze lib/ 2>&1 | grep -E \"\\(error\\)\" | head -10)"
+    ]
+  }
+}
